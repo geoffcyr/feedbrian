@@ -1,0 +1,79 @@
+/* Note to students:
+Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!
+*/
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Source Sans Pro';
+  color: #0099ff
+}
+
+img {
+  display: block;
+  margin:auto;
+}
+
+a {
+  color: #006bb3;
+}
+
+header {
+  padding: 100px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Portland_Head_Lighthouse%2C_Maine.jpg/1280px-Portland_Head_Lighthouse%2C_Maine.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+  background-attachment: scroll;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  color: #ffffff;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+nav {
+  width: 200px;
+  height: 100%;
+  float: left; /* don't modify */
+  background-color: #0099ff;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+section {
+  width: 500px;
+  float: left; /* don't modify */
+  padding: 5px;
+}
+
+footer {
+  clear: left; /* don't modify */
+  padding: 10px;
+  background: ;
+  text-align: center;
+}
